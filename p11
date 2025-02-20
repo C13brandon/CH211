@@ -1,0 +1,13 @@
+#include <iostream>
+Int main()
+{
+double gallon, mpg in town, mpg in highway,distance1, distance2;
+double gallon = 20;
+double mpgtown= 23.5;
+double mpghighway=28.9;
+double distance1= gallon*mpgtown;
+double distance2=gallon*mpghighway;
+cout<<distancetown<<" Average miles per gallon in the town"<<endl;
+cout<<distancehwy<<" Average miles per gallon in the highway"<<endl;
+return 0;
+}
